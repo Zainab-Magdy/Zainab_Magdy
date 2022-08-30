@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="387.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Projects.gui.yellow_team.activities.mainStageController">
+   <children>
+      <ImageView fitHeight="387.0" fitWidth="613.0" layoutX="-6.0" opacity="0.84" pickOnBounds="true">
+         <image>
+            <Image url="@../images/dcdc25be-f47a-46cd-8797-122c38cae3ee.jpg" />
+         </image>
+      </ImageView>
+      <Group fx:id="newGame" layoutX="250.0" layoutY="47.0" onMouseClicked="#openNewGame">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a14545" height="85.0" layoutX="5.0" layoutY="-22.0" opacity="0.55" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="85.0" />
+            <Text fill="WHITE" layoutX="16.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Game" textAlignment="CENTER" wrappingWidth="65.16015625">
+               <font>
+                  <Font size="13.0" />
+               </font></Text>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Group>
+      <Group layoutX="442.0" layoutY="142.0" onMouseClicked="#openSettings">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a14545" height="85.0" layoutX="-50.0" layoutY="-16.0" opacity="0.55" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="85.0" />
+            <Text fill="WHITE" layoutX="-30.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Setting" wrappingWidth="44.16015625">
+               <font>
+                  <Font size="13.0" />
+               </font></Text>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Group>
+      <Group layoutX="381.0" layoutY="245.0" onMouseClicked="#help">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a14545" height="85.0" layoutX="-23.0" layoutY="15.0" opacity="0.55" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="85.0" />
+            <Text fill="WHITE" layoutX="4.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help" textAlignment="CENTER" wrappingWidth="31.16015625">
+               <font>
+                  <Font size="13.0" />
+               </font></Text>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Group>
+      <Group layoutX="167.0" layoutY="256.0" onMouseClicked="#exit">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a14545" height="85.0" layoutX="-3.0" layoutY="3.0" opacity="0.55" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="85.0" />
+            <Text fill="WHITE" layoutX="30.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exit" textAlignment="CENTER">
+               <font>
+                  <Font size="13.0" />
+               </font></Text>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Group>
+      <Group layoutX="95.0" layoutY="151.0" onMouseClicked="#openPrevGame">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a14545" height="85.0" layoutX="26.0" layoutY="-30.0" opacity="0.55" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="85.0" />
+            <Text fill="WHITE" layoutX="26.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Previous Game" textAlignment="CENTER">
+               <font>
+                  <Font size="13.0" />
+               </font></Text>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Group>
+      <Group layoutX="271.0" layoutY="176.0" onMouseClicked="#showInfo">
+         <children>
+            <Circle fill="#a14545" layoutX="26.0" layoutY="24.0" opacity="0.55" radius="48.0" stroke="BLACK" strokeType="INSIDE" />
+            <Text fill="WHITE" layoutX="-18.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team Members" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Text>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Group>
+   </children>
+</Pane>
